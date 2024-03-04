@@ -8,23 +8,23 @@
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\thebo\\.nuget\\packages\\": {},
+    "C:\\Users\\JacksonAbney\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thebo\\Desktop\\TarkovProjects\\GithubStuff\\Client Mod Stuff\\DeClutterer\\TYR_DeClutterer.csproj",
+      "projectUniqueName": "C:\\Users\\JacksonAbney\\RiderProjects\\Tyrian-DeClutterer-v14-sit\\TYR_DeClutterer.csproj",
       "projectName": "TYR_DeClutterer",
-      "projectPath": "C:\\Users\\thebo\\Desktop\\TarkovProjects\\GithubStuff\\Client Mod Stuff\\DeClutterer\\TYR_DeClutterer.csproj",
-      "packagesPath": "C:\\Users\\thebo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thebo\\Desktop\\TarkovProjects\\GithubStuff\\Client Mod Stuff\\DeClutterer\\obj\\",
+      "projectPath": "C:\\Users\\JacksonAbney\\RiderProjects\\Tyrian-DeClutterer-v14-sit\\TYR_DeClutterer.csproj",
+      "packagesPath": "C:\\Users\\JacksonAbney\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JacksonAbney\\RiderProjects\\Tyrian-DeClutterer-v14-sit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\thebo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JacksonAbney\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,7 +51,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

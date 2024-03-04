@@ -11,7 +11,7 @@ namespace Framesaver
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(GClass1555).GetMethod("method_9", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+            return typeof(WeaponEffectsManager).GetMethod("method_9", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
         }
 
         [PatchPrefix]
@@ -27,7 +27,7 @@ namespace Framesaver
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(GClass1555).GetMethod("SpawnShellAfterJam", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+            return typeof(WeaponEffectsManager).GetMethod("SpawnShellAfterJam", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
         }
 
         [PatchPrefix]
@@ -41,11 +41,11 @@ namespace Framesaver
     {
         protected override MethodBase GetTargetMethod()
         {
-            return typeof(GClass1555).GetMethod("method_4", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+            return typeof(WeaponEffectsManager).GetMethod("method_4", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
         }
 
         [PatchPrefix]
-        public static bool Prefix(bool __result)
+        public static bool Prefix(ref bool __result)
         {
             __result = false;
             return false;
